@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <package name="default" namespace="/" extends="struts-default">
+        <action name="Log" class="LoginCheck.Log">
+            <result name="Admin">./Upload.html</result>
+            <result name="fail">./login.jsp</result>
+            <result name="User">./Audio.jsp</result>
+        </action>
+        <action name="Login" class="LoginCheck.Log" method="login">
+            <result name="success">./SignUp.jsp</result>
+            <result name="error">./login.jsp</result>
+        </action>
+        <action name="Logout" class="LoginCheck.Log" method="logout">
+            <result name="login">./login.jsp</result>
+        </action>
+        <action name="logcheck" class="LoginCheck.Log" method="logcheck">
+            <result name="unlog">./login.jsp</result>
+            <result name="log">./Audio.jsp</result>
+        </action>
+        <action name="SignUp" class="LoginCheck.SignUp">
+            <result name="success">./login.jsp</result>
+            <result name="loging">./Upload.html</result>
+            <result name="error">./Fail.jsp</result>
+        </action>
+        <action name="Audio" class="LoginCheck.Audio">
+            <result name="success">./Audio.jsp</result>
+        </action>
+        <action name="pageList" class="saber.action.UserListAction" method="queryList">
+            <result name="userList" type="dispatcher">./index.jsp</result>
+        </action>
+    </package>
+
+
+</struts>
