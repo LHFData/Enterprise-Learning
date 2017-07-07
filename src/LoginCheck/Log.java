@@ -32,12 +32,10 @@ public class Log extends ActionSupport implements SessionAware, ServletRequestAw
     //会话层获取
     private HttpSession Session;
         //set注入Session，struts2把session封装成了一个Map
-
         //登录自检，自检成功则跳转
         public String login(){
             System.out.println("judge");
             if(cookieUtil.getCookie(request,userDao)){
-
                 return SUCCESS;
             }
             else return ERROR;
@@ -62,9 +60,7 @@ public class Log extends ActionSupport implements SessionAware, ServletRequestAw
         public String getUsername(){
             return this.Username;
         }
-        public String getPassword(){
-            return this.Password;
-        }
+        public String getPassword(){ return this.Password; }
         public void serCookie(Boolean userCookie){this.userCookie=userCookie;}
         public Boolean getCookie(){return userCookie;}
 
@@ -73,9 +69,7 @@ public String execute() {
     //方法中可以对session、request、response进行操作
     Session=request.getSession();
     Session.setAttribute("Username",this.Username);
-
     User user=userDao.CheckUser(Username,Password);
-    //System.out.println(user+"user");
     if(user!=null){
         //此处CHECKBOX判断变量USERCOOKIE待修正，问题，提交
         if(!userCookie) {
@@ -85,8 +79,6 @@ public String execute() {
         }
         //User设置到Session中
         session.put(USER_SESSION,user);
-        //Session.setAttribute("log",session);
-        //System.out.println(session);
         if (user.permit==3)
             return "Admin";
         else return "User";
@@ -112,7 +104,7 @@ public String logout(){
             Cookie cookie=cookieUtil.delCookie(request);
             if(cookie!=null)
                 response.addCookie(cookie);
-            session.setAttribute("Username","welcome");
+            session.removeAttribute("Username");
             return "login";
 }
 }

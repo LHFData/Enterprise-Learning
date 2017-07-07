@@ -6,7 +6,17 @@
 
 <struts>
 
+
     <package name="default" namespace="/" extends="struts-default">
+        <!--拦截器-->
+        <!--<interceptors>
+            <interceptor name="MyInterceptor" class="LoginCheck.Interceptor.LoginInterceptor"></interceptor>
+            <interceptor-stack name="myInterceptorStack">
+                <interceptor-ref name="MyInterceptor"/>
+                <interceptor-ref name="defaultStack"/>
+            </interceptor-stack>
+        </interceptors>-->
+
         <action name="Log" class="LoginCheck.Log">
             <result name="Admin">./Upload.html</result>
             <result name="fail">./login.jsp</result>

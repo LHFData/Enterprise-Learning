@@ -72,7 +72,7 @@
 
       <!-- Start Sign In Form -->
 
-      <form action="Log.action" class="fh5co-form animate-box" data-animate-effect="fadeInRight">
+      <form action="Log.action" class="fh5co-form animate-box" data-animate-effect="fadeInRight" method="post">
         <h2>Sign In</h2>
 
         <div class="form-group">

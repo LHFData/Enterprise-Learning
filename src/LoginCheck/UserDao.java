@@ -19,8 +19,7 @@ public class UserDao {
         ResultSet Result = null;
         Statement stmt=null;
         Connection conn=null;
-        //if (this.getPassword().equals("AS709394") &&this.getUsername().equals("821779004")) return SUCCESS;
-        //else return  ERROR;
+
         try {
             Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/lhf", "root", "as709394");
@@ -57,13 +56,10 @@ public class UserDao {
         Statement stmt=null;
         Connection conn=null;
         String sql=null;
-        //if (this.getPassword().equals("AS709394") &&this.getUsername().equals("821779004")) return SUCCESS;
-        //else return  ERROR;
         try {
             Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/lhf", "root", "as709394");
             stmt = conn.createStatement();
-
             if (CheckUserExit(Username,Password)) {
                 Result.close();
                 conn.close();

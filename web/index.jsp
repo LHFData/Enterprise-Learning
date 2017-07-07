@@ -116,7 +116,7 @@
                             <div class="nav">
                                 <ul class="list-inline">
                                     <li>
-                                        <a href="login.jsp">Login</a>
+                                        <a href="CreditMarket.jsp">Login</a>
                                     </li>
                                     <li>
                                         <a href="SignUp.jsp">Sign Up</a>
