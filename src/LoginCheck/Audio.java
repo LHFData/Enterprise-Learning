@@ -8,6 +8,7 @@ import org.apache.struts2.interceptor.ServletResponseAware;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpServlet;
@@ -37,7 +38,9 @@ public  class Audio extends ActionSupport implements ServletRequestAware,Servlet
         return this.response;
     }
     public String execute()throws ServletException,IOException{
-
+        //后台获取超链接参数的方法
+        String id=request.getQueryString();
+        System.out.println("\n"+id);
         request.setAttribute("srcc","Audio2.ogg");
         RequestDispatcher dispatcher=request.getRequestDispatcher("/Audio.jsp");
         dispatcher.forward(request,response);

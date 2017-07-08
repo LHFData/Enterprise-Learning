@@ -57,60 +57,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 clearfix">
-                        <!--<div class="b-top-options pull-left">
-                            <div class="nav">
-                                <ul class="list-inline">
-                                    <li class="dropdown">
-                                        <div class="btn-group">
-                                            <button class="dropdown-toggle" data-toggle="dropdown" type="button" aria-expanded="false">
-                                                <span class="flag-icon flag-icon-gb"></span>
-                                                ENG
-                                                <i class="fa fa-angle-down"></i>
-                                            </button>
-                                            <ul class="dropdown-menu dropdown-menu-left" role="menu">
-                                                <li>
-                                                    <a href="javascript:void(0);"><span class="flag-icon flag-icon-gb"></span> ENG</a>
-                                                </li>
-                                                <li class="li-last">
-                                                    <a href="javascript:void(0);"><span class="flag-icon flag-icon-fr"></span> FR</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="dropdown">
-                                        <div class="btn-group">
-                                            <button class="dropdown-toggle" data-toggle="dropdown" type="button" aria-expanded="false">
-                                                USD
-                                                <i class="fa fa-angle-down"></i>
-                                            </button>
-                                            <ul class="dropdown-menu dropdown-menu-left" role="menu">
-                                                <li>
-                                                    <a href="javascript:void(0);">USD</a>
-                                                </li>
-                                                <li class="li-last">
-                                                    <a href="javascript:void(0);">EURO</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="dropdown">
-                                        <div class="btn-group">
-                                            <button class="dropdown-toggle" data-toggle="dropdown" title="My Account">
-                                                <span>My Account</span>
-                                                <i class="fa fa-angle-down"></i>
-                                            </button>
-                                            <ul class="dropdown-menu dropdown-menu-right">
-                                                <li><a href="#"><i class="fa fa-unlock"></i>Login</a></li>
-                                                <li><a href="#"><i class="fa fa-user"></i>Create Account</a></li>
-                                                <li><a href="#"><i class="fa fa-heart"></i>My Wishlist</a></li>
-                                                <li><a href="#"><i class="fa fa-shopping-cart"></i>My Shopping Cart</a></li>
-                                                <li><a href="#"><i class="fa fa-arrow-left"></i>Checkout</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>-->
+
                         <div class="b-top-info pull-right">
                             <div class="nav">
                                 <ul class="list-inline">
@@ -147,16 +94,7 @@
                             <ul class="list-inline">
                                 <li>
                                     <a class="heading-line" href="home-1.html">主页</a>
-                                    <!--<div class="b-all-homes">
-                                        <ul class="list-unstyled">
-                                            <li>
-                                                <a class="heading-line" href="home-2.html">HOME 2</a>
-                                            </li>
-                                            <li>
-                                                <a class="heading-line" href="home-3.html">HOME 3</a>
-                                            </li>
-                                        </ul>
-                                    </div>-->
+
                                 </li>
                                 <li id="all-menu-open">
                                     <a class="heading-line" href="category-1-grid.html">所有课程<i class="fa fa-angle-down"></i></a>
@@ -278,22 +216,7 @@
                                 </li>
                                 <li>
                                     <a class="heading-line" href="category-1-grid.html">categories</a>
-                                    <!--<div class="b-all-homes">
-                                        <ul class="list-unstyled">
-                                            <li>
-                                                <a class="heading-line" href="category-1-grid.html">CATEGORY 1</a>
-                                            </li>
-                                            <li>
-                                                <a class="heading-line" href="category-2-grid.html">CATEGORY 2</a>
-                                            </li>
-                                            <li>
-                                                <a class="heading-line" href="category-3-list.html">CATEGORY 3</a>
-                                            </li>
-                                            <li>
-                                                <a class="heading-line" href="category-4-list.html">CATEGORY 4</a>
-                                            </li>
-                                        </ul>
-                                    </div>-->
+
                                 </li>
                                 <li>
                                     <a class="heading-line" href="#">products</a>
@@ -359,70 +282,7 @@
                             </ul>
                         </div>
                     </div>
-                    <!--<div id="cart-wrapper" class="col-xs-6 col-sm-12 col-md-2 col-lg-2">
-                        <div class="b-cart pull-right">
-                            <button id="cart" class="btn btn-default-color1 btn-sm">
-                                <span class="price"><i class="fa fa-shopping-bag"></i> $ 460.00</span>
-                                <span class="counter-wrapper"><span class="counter">2</span></span>
-                            </button>
-                            <div class="cart-products">
-                                <div class="c-holder">
-                                    <h3 class="title">
-                                        my shopping cart
-                                    </h3>
-                                    <ul class="products-list list-unstyled">
-                                        <li>
-                                            <div class="b-cart-table ">
-                                                <a href="#" class="image">
-                                                    <img src="media/cart-products/product1.jpg" alt="/">
-                                                </a>
-                                                <div class="caption">
-                                                    <a class="product-name" href="product-details.html">Huawei Mate S</a>
-                                                    <span class="product-price">1 x $280.00</span>
-                                                    <div class="rating">
-                                                        <span class="star"><i class="fa fa-star"></i></span>
-                                                        <span class="star"><i class="fa fa-star"></i></span>
-                                                        <span class="star"><i class="fa fa-star"></i></span>
-                                                        <span class="star"><i class="fa fa-star"></i></span>
-                                                        <span class="star star-empty"><i class="fa fa-star-o"></i></span>
-                                                    </div>
-                                                </div>
-                                                <button class="btn btn-remove"><i class="fa fa-trash fa-lg"></i></button>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="b-cart-table ">
-                                                <a href="#" class="image">
-                                                    <img src="media/cart-products/product2.jpg" alt="/">
-                                                </a>
-                                                <div class="caption">
-                                                    <a class="product-name" href="product-details.html">Sony xperia z5</a>
-                                                    <span class="product-price">1 x $620.00</span>
-                                                    <div class="rating">
-                                                        <span class="star"><i class="fa fa-star"></i></span>
-                                                        <span class="star"><i class="fa fa-star"></i></span>
-                                                        <span class="star"><i class="fa fa-star"></i></span>
-                                                        <span class="star"><i class="fa fa-star"></i></span>
-                                                        <span class="star star-empty"><i class="fa fa-star-o"></i></span>
-                                                    </div>
-                                                </div>
-                                                <button class="btn btn-remove"><i class="fa fa-trash fa-lg"></i></button>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="products-subtotal text-right">
-                                                Cart Subtotal <span class="subtotal-price">$900.00</span>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <div class="products-buttons text-center">
-                                        <button type="button" class="btn btn-default-color1 btn-sm">view cart</button>
-                                        <button type="button" class="btn btn-primary-color2 btn-sm">Checkout</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>-->
+
                 </div>
             </div>
         </div>
@@ -555,21 +415,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <!--<div id="accordion3" class="accordion-l-box wow fadeInUp enable-accordion" data-active="0" data-collapsible="true" data-height-style="content">-->
-                        <!--<h3>-->
-                        <!--<span class="heading-line title-accordion-menu-item">Price</span>-->
-                        <!--<span class="accordion-icon"></span>-->
-                        <!--</h3>-->
-                        <!--<div>-->
-                        <!--<div class="price-block">-->
-                        <!--<div id="slider-range"></div>-->
-                        <!--<input type="text" name="price" id="price-min">-->
-                        <!--<span class="price-diveder">-</span>-->
-                        <!--<input type="text" name="price2" id="price-max">-->
-                        <!--<button class="btn btn-default-color1 btn-sm">filter</button>-->
-                        <!--</div>-->
-                        <!--</div>-->
-                        <!--</div>-->
+
                         <div id="accordion4" class="accordion-l-box wow fadeInUp enable-accordion" data-active="0" data-collapsible="true" data-height-style="content">
                             <h3>
                                 <span class="heading-line title-accordion-menu-item">户外运动汽车用品</span>
@@ -828,70 +674,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <!--<div id="accordion8" class="accordion-l-box wow fadeInUp enable-accordion" data-active="false" data-collapsible="true" data-height-style="content">-->
-                        <!--<h3>-->
-                        <!--<span class="heading-line title-accordion-menu-item">phone ram</span>-->
-                        <!--<span class="accordion-icon"></span>-->
-                        <!--</h3>-->
-                        <!--<div>-->
-                        <!--<ul>-->
-                        <!--<li class="active">-->
-                        <!--<a href="#">-->
-                        <!--<i class="fa fa-caret-square-o-right"></i>-->
-                        <!--Apple iPhone-->
-                        <!--<span class="category-counter">[25]</span>-->
-                        <!--</a>-->
-                        <!--</li>-->
-                        <!--<li>-->
-                        <!--<a href="#">-->
-                        <!--<i class="fa fa-caret-square-o-right"></i>-->
-                        <!--Samsung-->
-                        <!--<span class="category-counter">[08]</span>-->
-                        <!--</a>-->
-                        <!--</li>-->
-                        <!--<li>-->
-                        <!--<a href="#">-->
-                        <!--<i class="fa fa-caret-square-o-right"></i>-->
-                        <!--HTC-->
-                        <!--<span class="category-counter">[39]</span>-->
-                        <!--</a>-->
-                        <!--</li>-->
-                        <!--<li>-->
-                        <!--<a href="#">-->
-                        <!--<i class="fa fa-caret-square-o-right"></i>-->
-                        <!--Blackberry-->
-                        <!--<span class="category-counter">[50]</span>-->
-                        <!--</a>-->
-                        <!--</li>-->
-                        <!--<li>-->
-                        <!--<a href="#">-->
-                        <!--<i class="fa fa-caret-square-o-right"></i>-->
-                        <!--Huawei-->
-                        <!--<span class="category-counter">[17]</span>-->
-                        <!--</a>-->
-                        <!--</li>-->
-                        <!--<li class="more">-->
-                        <!--<span class="load-more">load more</span>-->
-                        <!--<ul class="more-list">-->
-                        <!--<li>-->
-                        <!--<a href="#">-->
-                        <!--<i class="fa fa-caret-square-o-right"></i>-->
-                        <!--Samsung-->
-                        <!--<span class="category-counter">[08]</span>-->
-                        <!--</a>-->
-                        <!--</li>-->
-                        <!--<li>-->
-                        <!--<a href="#">-->
-                        <!--<i class="fa fa-caret-square-o-right"></i>-->
-                        <!--HTC-->
-                        <!--<span class="category-counter">[39]</span>-->
-                        <!--</a>-->
-                        <!--</li>-->
-                        <!--</ul>-->
-                        <!--</li>-->
-                        <!--</ul>-->
-                        <!--</div>-->
-                        <!--</div>-->
+
                     </div>
                     <div class="side-offer wow fadeInUp">
                         <div class="b-offers">
@@ -957,44 +740,9 @@
                             <h3 class="heading-line pull-left">
                                 积分商城
                             </h3>
-                            <!--<div class="settings-block pull-right">-->
-                            <!--<div class="settings-options">-->
-                            <!--<div class="select-block">-->
-                            <!--<span class="select-title">Show</span>-->
-                            <!--<select class="selectpicker" id="show-items" data-width="75px">-->
-                            <!--<option value="Default Sorting">15</option>-->
-                            <!--<option value="Default Sorting">30</option>-->
-                            <!--<option value="Default Sorting">45</option>-->
-                            <!--</select>-->
-                            <!--</div>-->
-                            <!--<div class="select-block">-->
-                            <!--<span class="select-title">Sort By</span>-->
-                            <!--<select class="selectpicker" id="sort-product" data-width="134px">-->
-                            <!--<option value="Default Sorting">Revelance</option>-->
-                            <!--<option value="Default Sorting">Revelance</option>-->
-                            <!--<option value="Default Sorting">Revelance</option>-->
-                            <!--</select>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="settings-view hidden-md hidden-sm hidden-xs">-->
-                            <!--<ul id="type-of-display" class="list-unstyled">-->
-                            <!--<li>-->
-                            <!--<button class="btn toogle-view grid-list">-->
-                            <!--<i class="fa fa-th-list fa-fw"></i>-->
-                            <!--</button>-->
-                            <!--</li>-->
-                            <!--<li>-->
-                            <!--<button class="btn toogle-view grid-3 active-view">-->
-                            <!--<i class="fa fa-th-large fa-fw"></i>-->
-                            <!--</button>-->
-                            <!--</li>-->
-                            <!--</ul>-->
-                            <!--</div>-->
-                            <!--</div>-->
+
                         </div>
-                        <!--<div class="settings-result text-center">-->
-                        <!--<p>Showing restults 1 to 12 of 140 total</p>-->
-                        <!--</div>-->
+
                     </div>
                     <div class="b-grid">
                         <div class="row">
@@ -1612,240 +1360,9 @@
             <hr>
             <hr>
         </div>
-        <!--<div class="container">-->
-        <!--<div class="row">-->
-        <!--<div class="col-sm-12">-->
-        <!--<div class="b-features-wrapper">-->
-        <!--<div class="b-store-features clearfix">-->
-        <!--<div class="b-feature-holder col-sm-3">-->
-        <!--<div class="feature-block">-->
-        <!--<div class="feature-icon">-->
-        <!--<i class="fa fa-thumbs-up"></i>-->
-        <!--</div>-->
-        <!--<div class="feature-info">-->
-        <!--<p>Full warrenty</p>-->
-        <!--<p>Read About Our Warrenty</p>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--<div class="b-feature-holder col-sm-3">-->
-        <!--<div class="feature-block">-->
-        <!--<div class="feature-icon">-->
-        <!--<i class="fa fa-truck"></i>-->
-        <!--</div>-->
-        <!--<div class="feature-info">-->
-        <!--<p>express shipping</p>-->
-        <!--<p>Local & International Shipping</p>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--<div class="b-feature-holder col-sm-3">-->
-        <!--<div class="feature-block">-->
-        <!--<div class="feature-icon">-->
-        <!--<i class="fa fa-commenting"></i>-->
-        <!--</div>-->
-        <!--<div class="feature-info">-->
-        <!--<p>mobile blog</p>-->
-        <!--<p>Discuss Your Favourite Phone</p>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--<div class="b-feature-holder col-sm-3">-->
-        <!--<div class="feature-block">-->
-        <!--<div class="feature-icon">-->
-        <!--<i class="fa fa-headphones"></i>-->
-        <!--</div>-->
-        <!--<div class="feature-info">-->
-        <!--<p>24/7 Support</p>-->
-        <!--<p>Get Full Support via Chat</p>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
+
     </section>
-    <!--<footer class="style-2">-->
-    <!--<div class="container">-->
-    <!--<div class="row">-->
-    <!--<div class="col-xs-12 col-sm-3">-->
-    <!--<div class="b-logo">-->
-    <!--<a href="#">-->
-    <!--<span>iSmile</span>-->
-    <!--<br>-->
-    <!--<span>store</span>-->
-    <!--</a>-->
-    <!--</div>-->
-    <!--<div class="b-footer-contacts wow pulse nimated">-->
-    <!--<div class="footer-contacts-info">-->
-    <!--<p>-->
-    <!--Lorem ipsum dolor sit amet consecteta adipis-->
-    <!--cing elit sed do leusmod tempor incididunt ut-->
-    <!--ard sed ipsum labore dolore.-->
-    <!--</p>-->
-    <!--</div>-->
-    <!--<div class="footer-contacts-list">-->
-    <!--<ul class="list-unstyled">-->
-    <!--<li>-->
-    <!--<i class="fa fa-map-pin fa-fw"></i>-->
-    <!--<span>121 King Street, Melbourne,-->
-    <!--Victoria, 3000 AU</span>-->
-    <!--</li>-->
-    <!--<li>-->
-    <!--<i class="fa fa-phone fa-fw"></i>-->
-    <!--<span>+ 123 456 7890</span>-->
-    <!--</li>-->
-    <!--<li>-->
-    <!--<i class="fa fa-envelope-o fa-fw"></i>-->
-    <!--<span>order@ismilestore.net</span>-->
-    <!--</li>-->
-    <!--</ul>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--<div class="col-xs-12 col-sm-9">-->
-    <!--<div class="row">-->
-    <!--<div class="b-footer-menu clearfix">-->
-    <!--<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">-->
-    <!--<div class="footer-menu-item wow pulse nimated">-->
-    <!--<div class="heading-line">Store links</div>-->
-    <!--<ul class="list-unstyled">-->
-    <!--<li><a href="#">All Brands</a></li>-->
-    <!--<li><a href="#">Latest Smartphones</a></li>-->
-    <!--<li><a href="#">Best Sellers</a></li>-->
-    <!--<li><a href="#">Advertise With us</a></li>-->
-    <!--<li><a href="#">Delivery Information</a></li>-->
-    <!--<li><a href="#">Terms & Conditions</a></li>-->
-    <!--<li><a href="#">Contact us</a></li>-->
-    <!--</ul>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">-->
-    <!--<div class="footer-menu-item wow pulse nimated">-->
-    <!--<div class="heading-line">our Brands</div>-->
-    <!--<ul class="list-unstyled">-->
-    <!--<li><a href="#">Samsung</a></li>-->
-    <!--<li><a href="#">Nokia</a></li>-->
-    <!--<li><a href="#">LG</a></li>-->
-    <!--<li><a href="#">Apple</a></li>-->
-    <!--<li><a href="#">Sony</a></li>-->
-    <!--<li><a href="#">Microsoft</a></li>-->
-    <!--</ul>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--<div class="clearfix visible-xs-block"></div>-->
-    <!--<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">-->
-    <!--<div class="footer-menu-item wow pulse nimated">-->
-    <!--<div class="heading-line">information</div>-->
-    <!--<ul class="list-unstyled">-->
-    <!--<li><a href="#">My Account</a></li>-->
-    <!--<li><a href="#">My Shopping Cart</a></li>-->
-    <!--<li><a href="#">My Wishlist</a></li>-->
-    <!--<li><a href="#">Help Center</a></li>-->
-    <!--<li><a href="#">Returns & Warrenty</a></li>-->
-    <!--<li><a href="#">Order History</a></li>-->
-    <!--</ul>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">-->
-    <!--<div class="b-latest-tweets wow pulse nimated">-->
-    <!--<div class="heading-line">latest tweets</div>-->
-    <!--<div class="tweet-item">-->
-    <!--<p>-->
-    <!--Android in December: Marshmallow is-->
-    <!--on 0.5% of devices, Lollipop reaches-->
-    <!--29.5% <a href="#">http://bit.ly/1PWrFhy</a>-->
-    <!--</p>-->
-    <!--</div>-->
-    <!--<div class="tweet-item">-->
-    <!--<p>-->
-    <!--Apple planning March event for new-->
-    <!--Apple Watch and 4 inch iPhone: Apple-->
-    <!--is planning to hold an ev… <a href="#">http://bit.ly/1TZL7bB</a>-->
-    <!--</p>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--<div class="row">-->
-    <!--<div class="col-sm-12">-->
-    <!--<div class="b-footer-subsc">-->
-    <!--<div class="row">-->
-    <!--<div class="col-sm-3">-->
-    <!--<div class="subsc-title wow pulse nimated">-->
-    <!--<p>-->
-    <!--subscribe to latest smartphones-->
-    <!--news & great deals we offer-->
-    <!--</p>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--<div class="col-sm-9 col-lg-5">-->
-    <!--<div class="subsc-mail wow pulse nimated">-->
-    <!--<form id="comment-reply-form" class="b-form" method="get" action="#">-->
-    <!--<div class="form-group">-->
-    <!--<div class="row">-->
-    <!--<div class="col-sm-12">-->
-    <!--<input type="text" class="form-control" id="form-mail" placeholder="Enter Your Email Address ...">-->
-    <!--<button type="button" class="btn btn-subsc"><i class="fa fa-envelope-o fa-fw"></i></button>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</form>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--<div class="col-sm-12 col-lg-4 clearfix">-->
-    <!--<div class="footer-socials wow pulse nimated">-->
-    <!--<div class="b-socials clearfix">-->
-    <!--<ul class="list-unstyled">-->
-    <!--<li><a href=""><i class="fa fa-twitter fa-fw"></i></a></li>-->
-    <!--<li><a href=""><i class="fa fa-facebook fa-fw"></i></a></li>-->
-    <!--<li><a href=""><i class="fa fa-linkedin fa-fw"></i></a></li>-->
-    <!--<li><a href=""><i class="fa fa-google-plus fa-fw"></i></a></li>-->
-    <!--<li><a href=""><i class="fa fa-pinterest-p fa-fw"></i></a></li>-->
-    <!--<li><a href=""><i class="fa fa-youtube-play fa-fw"></i></a></li>-->
-    <!--<li><a href="#"><i class="fa fa-rss fa-fw"></i></a></li>-->
-    <!--</ul>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--<div class="b-footer-add">-->
-    <!--<div class="container">-->
-    <!--<div class="row">-->
-    <!--<div class="col-sm-12">-->
-    <!--<div class="clearfix">-->
-    <!--<div class="b-copy pull-left wow fadeInLeft">-->
-    <!--<p>-->
-    <!--Copyright &copy; 2016.Company name All rights reserved.-->
-    <!--</p>-->
-    <!--</div>-->
-    <!--<div class="b-payments pull-right">-->
-    <!--<ul class="list-unstyled wow fadeInRight">-->
-    <!--<li>-->
-    <!--<img src="media/paycards/1.jpg" class="img-responsive" alt="/">-->
-    <!--</li>-->
-    <!--<li><img src="media/paycards/2.jpg" class="img-responsive" alt="/"></li>-->
-    <!--<li><img src="media/paycards/3.jpg" class="img-responsive" alt="/"></li>-->
-    <!--<li><img src="media/paycards/4.jpg" class="img-responsive" alt="/"></li>-->
-    <!--<li><img src="media/paycards/5.jpg" class="img-responsive" alt="/"></li>-->
-    <!--<li><img src="media/paycards/6.jpg" class="img-responsive" alt="/"></li>-->
-    <!--</ul>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</footer>-->
+
 </div>
 
 <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>

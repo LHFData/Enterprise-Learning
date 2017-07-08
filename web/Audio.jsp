@@ -33,6 +33,25 @@
             response.sendRedirect("./login.jsp");
         }
     %>
+    <script type="text/javascript">
+        window.onload=function(){
+            var myVideo=document.getElementById("video1");
+            function eventTester(e){
+                myVideo.addEventListener(e,function(){
+
+                    if(e=='pause'){
+                        $('img').show();
+                    }else{
+                        $('img').hide();
+                    }
+
+                });
+            }
+            eventTester("pause");
+            eventTester("play");
+        }
+
+    </script>
 </head>
 
 <body >
@@ -49,16 +68,17 @@
         </div>
     </div>
 <div id="main">
-
     <h2 class="top_title"><a href="http://www.helloweba.com/view-blog-266.html">跨浏览器兼容的HTML5视频音频播放器</a></h2>
-    <a href="Audio.action">aaaaaaa</a>
-    <div class="demo">
-
-        <audio class="audio" controls>
-
-            <source src="${requestScope.srcc}" id="src"></source>
-        </audio>
+    <a href=<%=session.getAttribute("URL")%>><img src="1.jpg" alt="" width='420' height="206"  ></a>
+    <div style="text-align:center;">
+        <br />
+        <video id="video1" width="420" style="margin-top:15px;" autoplay="autoplay" controls="controls" loop="loop">
+            <source src="learn.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video.
+        </video>
     </div>
+
+
 </div>
 </div>
 
