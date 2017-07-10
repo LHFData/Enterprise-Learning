@@ -94,11 +94,11 @@
                         <div class="b-header-menu pull-right">
                             <ul class="list-inline">
                                 <li>
-                                    <a class="heading-line" href="home-1.html">主页</a>
+                                    <a class="heading-line" href="homepage.jsp">主页</a>
 
                                 </li>
                                 <li id="all-menu-open">
-                                    <a class="heading-line" href="category-1-grid.html">所有课程<i class="fa fa-angle-down"></i></a>
+                                    <a class="heading-line" href="CreditMarket.jsp">所有课程<i class="fa fa-angle-down"></i></a>
                                     <div id="b-all-menu" class="hidden-xs">
                                         <div class="row">
                                             <div class="clearfix">
@@ -297,7 +297,7 @@
                         <div class="b-breadcrumbs pull-right">
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="#">主页</a>
+                                    <a href="homepage.jsp">主页</a>
                                 </li>
 
                                 <li>

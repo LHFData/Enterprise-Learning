@@ -9,6 +9,10 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import javax.servlet.http.Cookie;
 
+import LoginCheck.dataDAO.JsonTrans;
+import LoginCheck.dataDAO.Question;
+import LoginCheck.dataDAO.QuestionDao;
+import com.sun.rowset.CachedRowSetImpl;
 import org.apache.struts2.ServletActionContext;
 import org.apache.struts2.interceptor.ServletRequestAware;
 import org.apache.struts2.interceptor.ServletResponseAware;
@@ -19,6 +23,8 @@ import com.opensymphony.xwork2.ActionSupport;
 import LoginCheck.UserDao;
 import LoginCheck.CookieUtil;
 import LoginCheck.User;
+import org.json.JSONException;
+
 public class Log extends ActionSupport implements SessionAware, ServletRequestAware, ServletResponseAware {
     public static final String USER_SESSION="user.session";
     private Map session;
@@ -65,8 +71,17 @@ public class Log extends ActionSupport implements SessionAware, ServletRequestAw
         public Boolean getCookie(){return userCookie;}
 
 @Override
-public String execute() {
+public String execute() throws IOException,JSONException,SQLException{
     //方法中可以对session、request、response进行操作
+
+    //JSON数据库存取测试用例
+    // QuestionDao q=new QuestionDao("1202","文学");
+    //JsonTrans j=new JsonTrans();
+    //CachedRowSetImpl z=q.getQuestion("1202","文学");
+    //j.setResultSet(z);
+    //j.Transform();
+
+    //System.out.println("this!"+j.Transform());
     Session=request.getSession();
     Session.setAttribute("Username",this.Username);
     User user=userDao.CheckUser(Username,Password);
@@ -84,7 +99,7 @@ public String execute() {
         else return "User";
     }
     this.addFieldError("username","用户名或密码错误");
-    return "login";
+    return "fail";
 
 }
 public String logcheck()throws IOException,ServletException{

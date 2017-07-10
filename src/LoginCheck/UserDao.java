@@ -19,7 +19,6 @@ public class UserDao {
         ResultSet Result = null;
         Statement stmt=null;
         Connection conn=null;
-
         try {
             Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/lhf", "root", "as709394");
@@ -80,4 +79,5 @@ public class UserDao {
         }
         return false;
     }
+
 }

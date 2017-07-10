@@ -12,14 +12,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>iSmiler</title>
-    <link href="css/master.css" rel="stylesheet">
+    <link href="user_page/css/master.css" rel="stylesheet">
 
     <!-- SWITCHER -->
-    <link rel="stylesheet" id="switcher-css" type="text/css" href="assets/switcher/css/switcher.css" media="all" />
-    <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/color1.css" title="color1" media="all" />
-    <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/color2.css" title="color2" media="all" />
-    <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/color3.css" title="color3" media="all" />
-    <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/color4.css" title="color4" media="all" />
+    <link rel="stylesheet" id="switcher-css" type="text/css" href="user_page/assets/switcher/css/switcher.css" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="user_page/assets/switcher/css/color1.css" title="color1" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="user_page/assets/switcher/css/color2.css" title="color2" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="user_page/assets/switcher/css/color3.css" title="color3" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="user_page/assets/switcher/css/color4.css" title="color4" media="all" />
 
 </head>
 <body>
@@ -57,60 +57,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 clearfix">
-                        <!--<div class="b-top-options pull-left">
-                            <div class="nav">
-                                <ul class="list-inline">
-                                    <li class="dropdown">
-                                        <div class="btn-group">
-                                            <button class="dropdown-toggle" data-toggle="dropdown" type="button" aria-expanded="false">
-                                                <span class="flag-icon flag-icon-gb"></span>
-                                                ENG
-                                                <i class="fa fa-angle-down"></i>
-                                            </button>
-                                            <ul class="dropdown-menu dropdown-menu-left" role="menu">
-                                                <li>
-                                                    <a href="javascript:void(0);"><span class="flag-icon flag-icon-gb"></span> ENG</a>
-                                                </li>
-                                                <li class="li-last">
-                                                    <a href="javascript:void(0);"><span class="flag-icon flag-icon-fr"></span> FR</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="dropdown">
-                                        <div class="btn-group">
-                                            <button class="dropdown-toggle" data-toggle="dropdown" type="button" aria-expanded="false">
-                                                USD
-                                                <i class="fa fa-angle-down"></i>
-                                            </button>
-                                            <ul class="dropdown-menu dropdown-menu-left" role="menu">
-                                                <li>
-                                                    <a href="javascript:void(0);">USD</a>
-                                                </li>
-                                                <li class="li-last">
-                                                    <a href="javascript:void(0);">EURO</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="dropdown">
-                                        <div class="btn-group">
-                                            <button class="dropdown-toggle" data-toggle="dropdown" title="My Account">
-                                                <span>My Account</span>
-                                                <i class="fa fa-angle-down"></i>
-                                            </button>
-                                            <ul class="dropdown-menu dropdown-menu-right">
-                                                <li><a href="#"><i class="fa fa-unlock"></i>Login</a></li>
-                                                <li><a href="#"><i class="fa fa-user"></i>Create Account</a></li>
-                                                <li><a href="#"><i class="fa fa-heart"></i>My Wishlist</a></li>
-                                                <li><a href="#"><i class="fa fa-shopping-cart"></i>My Shopping Cart</a></li>
-                                                <li><a href="#"><i class="fa fa-arrow-left"></i>Checkout</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>-->
+
                         <div class="b-top-info pull-right">
                             <div class="nav">
                                 <ul class="list-inline">
@@ -147,19 +94,10 @@
                             <ul class="list-inline">
                                 <li>
                                     <a class="heading-line" href="home-1.html">主页</a>
-                                    <!--<div class="b-all-homes">
-                                        <ul class="list-unstyled">
-                                            <li>
-                                                <a class="heading-line" href="home-2.html">HOME 2</a>
-                                            </li>
-                                            <li>
-                                                <a class="heading-line" href="home-3.html">HOME 3</a>
-                                            </li>
-                                        </ul>
-                                    </div>-->
+
                                 </li>
                                 <li id="all-menu-open">
-                                    <a class="heading-line" href="category-1-grid.html">所有课程<i class="fa fa-angle-down"></i></a>
+                                    <a class="heading-line" href="CreditMarket.jsp">所有课程<i class="fa fa-angle-down"></i></a>
                                     <div id="b-all-menu" class="hidden-xs">
                                         <div class="row">
                                             <div class="clearfix">
@@ -1318,512 +1256,19 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--<div role="tabpanel" class="tab-pane" id="bestsellers">
-                                <div class="row">
-                                    <div class="b-related">
-                                        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                                            <div class="b-item-card">
-                                                <div class="image">
-                                                    <a href="#">
-                                                        <img src="media/item-card-media/huaew-mate.jpg" class="img-responsive center-block" alt="/">
-                                                    </a>
-                                                    <div class="image-add-mod">
-                                                        <div class="add-description">
-                                                            <div>
-                                                                <span>Qualcomm Snapdragon 801</span>
-                                                                <br>
-                                                                <span>2.3 GHz Quad-core CPU</span>
-                                                                <br>
-                                                                <span>5.0" Corning Gorilla Glass</span>
-                                                                <br>
-                                                                <span>3GB RAM / 16GB ROM</span>
-                                                                <br>
-                                                                <button class="btn btn-default-color1 btn-sm" type="button"><i class="fa fa-refresh fa-lg"></i></button>
-                                                                <a href="media/item-card-media/huaew-mate.jpg" data-gal="prettyPhoto" title="HUAWEI G8 4G" class="btn btn-lightbox btn-default-color1 btn-sm">
-                                                                    <i class="fa fa-search-plus fa-lg"></i>
-                                                                </a>
-                                                            </div>
 
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="card-info">
-                                                    <div class="caption">
-                                                        <p class="name-item">
-                                                            <a class="product-name" href="product-details.html">Huawei Mate S</a>
-                                                        </p>
-                                                        <span class="product-price">$280.00</span>
-                                                    </div>
-                                                    <div class="add-buttons">
-                                                        <button type="button" class="btn btn-add btn-add-wish"><i class="fa fa-heart-o"></i></button>
-                                                    <button type="button" class="btn btn-add btn-add-cart"><i class="fa fa-shopping-cart"></i></button>                                </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                                            <div class="b-item-card">
-                                                <div class="special-plank new">
-                                                    <span>new</span>
-                                                </div>
-                                                <div class="image">
-                                                    <a href="#">
-                                                        <img src="media/item-card-media/xperia.jpg" class="img-responsive center-block" alt="/">
-                                                    </a>
-                                                    <div class="image-add-mod">
-                                                        <div class="add-description">
-                                                            <div>
-                                                                <span>Qualcomm Snapdragon 801</span>
-                                                                <br>
-                                                                <span>2.3 GHz Quad-core CPU</span>
-                                                                <br>
-                                                                <span>5.0" Corning Gorilla Glass</span>
-                                                                <br>
-                                                                <span>3GB RAM / 16GB ROM</span>
-                                                                <br>
-                                                                <button class="btn btn-default-color1 btn-sm" type="button"><i class="fa fa-refresh fa-lg"></i></button>
-                                                                <a href="media/item-card-media/g84g.jpg" data-gal="prettyPhoto" title="HUAWEI G8 4G" class="btn btn-lightbox btn-default-color1 btn-sm">
-                                                                    <i class="fa fa-search-plus fa-lg"></i>
-                                                                </a>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="card-info">
-                                                    <div class="caption">
-                                                        <p class="name-item">
-                                                            <a class="product-name" href="product-details.html">SONY XPERIA Z5</a>
-                                                        </p>
-                                                        <span class="product-price">$550.00</span>
-                                                    </div>
-                                                    <div class="add-buttons">
-                                                        <button type="button" class="btn btn-add btn-add-wish"><i class="fa fa-heart-o"></i></button>
-                                                    <button type="button" class="btn btn-add btn-add-cart"><i class="fa fa-shopping-cart"></i></button>                                </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                                            <div class="b-item-card">
-                                                <div class="special-plank new">
-                                                    <span>new</span>
-                                                </div>
-                                                <div class="image">
-                                                    <a href="#">
-                                                        <img src="media/item-card-media/mi41.jpg" class="img-responsive center-block" alt="/">
-                                                    </a>
-                                                    <div class="image-add-mod">
-                                                        <div class="add-description">
-                                                            <div>
-                                                                <span>Qualcomm Snapdragon 801</span>
-                                                                <br>
-                                                                <span>2.3 GHz Quad-core CPU</span>
-                                                                <br>
-                                                                <span>5.0" Corning Gorilla Glass</span>
-                                                                <br>
-                                                                <span>3GB RAM / 16GB ROM</span>
-                                                                <br>
-                                                                <button class="btn btn-default-color1 btn-sm" type="button"><i class="fa fa-refresh fa-lg"></i></button>
-                                                                <a href="media/item-card-media/mi41.jpg" data-gal="prettyPhoto" title="MI 41" class="btn btn-lightbox btn-default-color1 btn-sm">
-                                                                    <i class="fa fa-search-plus fa-lg"></i>
-                                                                </a>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="card-info">
-                                                    <div class="caption">
-                                                        <p class="name-item">
-                                                            <a class="product-name" href="product-details.html">Xiaomi Mi 4i</a>
-                                                        </p>
-                                                        <span class="product-price">$350.00</span>
-                                                    </div>
-                                                    <div class="add-buttons">
-                                                        <button type="button" class="btn btn-add btn-add-wish"><i class="fa fa-heart-o"></i></button>
-                                                    <button type="button" class="btn btn-add btn-add-cart"><i class="fa fa-shopping-cart"></i></button>                                </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                                            <div class="b-item-card">
-                                                <div class="image">
-                                                    <a href="#">
-                                                        <img src="media/item-card-media/g84g.jpg" class="img-responsive center-block" alt="/">
-                                                    </a>
-                                                    <div class="image-add-mod">
-                                                        <div class="add-description">
-                                                            <div>
-                                                                <span>Qualcomm Snapdragon 801</span>
-                                                                <br>
-                                                                <span>2.3 GHz Quad-core CPU</span>
-                                                                <br>
-                                                                <span>5.0" Corning Gorilla Glass</span>
-                                                                <br>
-                                                                <span>3GB RAM / 16GB ROM</span>
-                                                                <br>
-                                                                <button class="btn btn-default-color1 btn-sm" type="button"><i class="fa fa-refresh fa-lg"></i></button>
-                                                                <a href="media/item-card-media/g84g.jpg" data-gal="prettyPhoto" title="HUAWEI G8 4G" class="btn btn-lightbox btn-default-color1 btn-sm">
-                                                                    <i class="fa fa-search-plus fa-lg"></i>
-                                                                </a>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="card-info">
-                                                    <div class="caption">
-                                                        <p class="name-item">
-                                                            <a class="product-name" href="product-details.html">HUAWEI G8 4G</a>
-                                                        </p>
-                                                        <span class="product-price">$335.00</span>
-                                                    </div>
-                                                    <div class="add-buttons">
-                                                        <button type="button" class="btn btn-add btn-add-wish"><i class="fa fa-heart-o"></i></button>
-                                                    <button type="button" class="btn btn-add btn-add-cart"><i class="fa fa-shopping-cart"></i></button>                                </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>-->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--<div class="b-home-blog">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h4 class="heading-line-long">smartphone blog</h4>
-                    </div>
-                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
-                        <div class="row">
-                            <div class="b-posts-holder clearfix">
-                                <div class="b-post-preview col-xs-12 col-sm-4 col-md-4 col-lg-4 clearfix wow fadeInLeft">
-                                    <div class="post-image">
-                                        <div class="post-img-holder">
-                                            <div>
-                                                <img src="media/blog/post-prev1-home.jpg" class="img-responsive center-block" alt="/">
-                                                <div class="image-add">
-                                                    <a href="blog-post.html" class="btn btn-default-color1 btn-sm">view more</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="post-data">
-                                            <span>25 dec 2015</span>
-                                        </div>
-                                    </div>
-                                    <div class="post-caption">
-                                        <div class="post-author">
-                                            <span><i class="fa fa-comment-o"></i>12 Comments</span>
-                                        </div>
-                                        <div class="caption">
-                                            <h5 class="heading-line">best selfie phones 2015</h5>
-                                            <div class="post-description">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit
-                                                    sed do eiusmod tempor incididunt ut labore etu dolore
-                                                    magna aliqua enim ad minim veniam ...
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <a href="blog-post.html">read more</a>
-                                    </div>
-                                </div>
-                                <div class="b-post-preview col-xs-12 col-sm-4 col-md-4 col-lg-4 clearfix">
-                                    <div class="post-image">
-                                        <div class="post-img-holder">
-                                            <div>
-                                                <img src="media/blog/post-prev2-home.jpg" class="img-responsive center-block" alt="/">
-                                                <div class="image-add">
-                                                    <a href="blog-post.html" class="btn btn-default-color1 btn-sm">view more</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="post-data">
-                                            <span>25 dec 2015</span>
-                                        </div>
-                                    </div>
-                                    <div class="post-caption">
-                                        <div class="post-author">
-                                            <span><i class="fa fa-comment-o"></i>12 Comments</span>
-                                        </div>
-                                        <div class="caption">
-                                            <h5 class="heading-line">smartphone in hands</h5>
-                                            <div class="post-description">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit
-                                                    sed do eiusmod tempor incididunt ut labore etu dolore
-                                                    magna aliqua enim ad minim veniam ...
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <a href="blog-post.html">read more</a>
-                                    </div>
-                                </div>
-                                <div class="b-post-preview col-xs-12 col-sm-4 col-md-4 col-lg-4 clearfix wow fadeInRight">
-                                    <div class="post-image">
-                                        <div class="post-img-holder">
-                                            <div>
-                                                <img src="media/blog/post-prev3-home.jpg" class="img-responsive center-block" alt="/">
-                                                <div class="image-add">
-                                                    <a href="blog-post.html" class="btn btn-default-color1 btn-sm">view more</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="post-data">
-                                            <span>25 dec 2015</span>
-                                        </div>
-                                    </div>
-                                    <div class="post-caption">
-                                        <div class="post-author">
-                                            <span><i class="fa fa-comment-o"></i>12 Comments</span>
-                                        </div>
-                                        <div class="caption">
-                                            <h5 class="heading-line">2016 - what`s new</h5>
-                                            <div class="post-description">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit
-                                                    sed do eiusmod tempor incididunt ut labore etu dolore
-                                                    magna aliqua enim ad minim veniam ...
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <a href="blog-post.html">read more</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>-->
+
         <div class="b-hr-mod">
             <hr>
         </div>
-        <!--<div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="b-brands-holder">
-                        <div class="b-store-features b-brands-logos clearfix wow bounceInUp">
-                            <ul id="brands-slide" class="list-unstyled enable-owl-carousel" data-loop="true" data-auto-width="false" data-dots="true" data-nav="false" data-margin="0" data-responsive-class="true" data-responsive='{"0":{"items": "1"},"479":{"items": "2"},"992":{"items": "3"},"1199":{"items":"6","autoWidth":"true"}}' data-slider-next="" data-slider-prev="">
-                                <li>
-                                    <a href="#">
-                                        <img src="media/brand-logos/rick.png" class="img-responsive center-block" alt="/">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="media/brand-logos/mike.png" class="img-responsive center-block" alt="/">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="media/brand-logos/sa.png" class="img-responsive center-block" alt="/">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="media/brand-logos/gone.png" class="img-responsive center-block" alt="/">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="media/brand-logos/xmob.png" class="img-responsive center-block" alt="/">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="media/brand-logos/roman.png" class="img-responsive center-block" alt="/">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>-->
+
     </section>
-    <!--<footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-3">
-                    <div class="b-logo">
-                        <a href="#">
-                            <span>iSmile</span>
-                            <br>
-                            <span>store</span>
-                        </a>
-                    </div>
-                    <div class="b-footer-contacts wow pulse nimated">
-                        <div class="footer-contacts-info">
-                            <p>
-                                Lorem ipsum dolor sit amet consecteta adipis
-                                cing elit sed do leusmod tempor incididunt ut
-                                ard sed ipsum labore dolore.
-                            </p>
-                        </div>
-                        <div class="footer-contacts-list">
-                            <ul class="list-unstyled">
-                                <li>
-                                    <i class="fa fa-map-pin fa-fw"></i>
-                                    <span>121 King Street, Melbourne,
-                                        Victoria, 3000 AU</span>
-                                </li>
-                                <li>
-                                    <i class="fa fa-phone fa-fw"></i>
-                                    <span>+ 123 456 7890</span>
-                                </li>
-                                <li>
-                                    <i class="fa fa-envelope-o fa-fw"></i>
-                                    <span>order@ismilestore.net</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-9">
-                    <div class="row">
-                        <div class="b-footer-menu clearfix">
-                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                                <div class="footer-menu-item wow pulse nimated">
-                                    <div class="heading-line">Store links</div>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#">All Brands</a></li>
-                                        <li><a href="#">Latest Smartphones</a></li>
-                                        <li><a href="#">Best Sellers</a></li>
-                                        <li><a href="#">Advertise With us</a></li>
-                                        <li><a href="#">Delivery Information</a></li>
-                                        <li><a href="#">Terms & Conditions</a></li>
-                                        <li><a href="#">Contact us</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                                <div class="footer-menu-item wow pulse nimated">
-                                    <div class="heading-line">our Brands</div>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#">Samsung</a></li>
-                                        <li><a href="#">Nokia</a></li>
-                                        <li><a href="#">LG</a></li>
-                                        <li><a href="#">Apple</a></li>
-                                        <li><a href="#">Sony</a></li>
-                                        <li><a href="#">Microsoft</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="clearfix visible-xs-block"></div>
-                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                                <div class="footer-menu-item wow pulse nimated">
-                                    <div class="heading-line">information</div>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#">My Account</a></li>
-                                        <li><a href="#">My Shopping Cart</a></li>
-                                        <li><a href="#">My Wishlist</a></li>
-                                        <li><a href="#">Help Center</a></li>
-                                        <li><a href="#">Returns & Warrenty</a></li>
-                                        <li><a href="#">Order History</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                                <div class="b-latest-tweets wow pulse nimated">
-                                    <div class="heading-line">latest tweets</div>
-                                    <div class="tweet-item">
-                                        <p>
-                                            Android in December: Marshmallow is
-                                            on 0.5% of devices, Lollipop reaches
-                                            29.5% <a href="#">http://bit.ly/1PWrFhy</a>
-                                        </p>
-                                    </div>
-                                    <div class="tweet-item">
-                                        <p>
-                                            Apple planning March event for new
-                                            Apple Watch and 4 inch iPhone: Apple
-                                            is planning to hold an ev… <a href="#">http://bit.ly/1TZL7bB</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="b-footer-subsc">
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <div class="subsc-title wow pulse nimated">
-                                    <p>
-                                        subscribe to latest smartphones
-                                        news & great deals we offer
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-sm-9 col-lg-5">
-                                <div class="subsc-mail wow pulse nimated">
-                                    <form id="comment-reply-form" class="b-form" method="get" action="#">
-                                        <div class="form-group">
-                                            <div class="row">
-                                                <div class="col-sm-12">
-                                                    <input type="text" class="form-control" id="form-mail" placeholder="Enter Your Email Address ...">
-                                                    <button type="button" class="btn btn-subsc"><i class="fa fa-envelope-o fa-fw"></i></button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-lg-4 clearfix">
-                                <div class="footer-socials wow pulse nimated">
-                                    <div class="b-socials clearfix">
-                                        <ul class="list-unstyled">
-                                            <li><a href=""><i class="fa fa-twitter fa-fw"></i></a></li>
-                                            <li><a href=""><i class="fa fa-facebook fa-fw"></i></a></li>
-                                            <li><a href=""><i class="fa fa-linkedin fa-fw"></i></a></li>
-                                            <li><a href=""><i class="fa fa-google-plus fa-fw"></i></a></li>
-                                            <li><a href=""><i class="fa fa-pinterest-p fa-fw"></i></a></li>
-                                            <li><a href=""><i class="fa fa-youtube-play fa-fw"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-rss fa-fw"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="b-footer-add">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="clearfix">
-                            <div class="b-copy pull-left wow fadeInLeft">
-                                <p>
-                                    Copyright &copy; 2016.Company name All rights reserved.
-                                </p>
-                            </div>
-                            <div class="b-payments pull-right">
-                                <ul class="list-unstyled wow fadeInRight">
-                                    <li>
-                                        <img src="media/paycards/1.jpg" class="img-responsive" alt="/">
-                                    </li>
-                                    <li><img src="media/paycards/2.jpg" class="img-responsive" alt="/"></li>
-                                    <li><img src="media/paycards/3.jpg" class="img-responsive" alt="/"></li>
-                                    <li><img src="media/paycards/4.jpg" class="img-responsive" alt="/"></li>
-                                    <li><img src="media/paycards/5.jpg" class="img-responsive" alt="/"></li>
-                                    <li><img src="media/paycards/6.jpg" class="img-responsive" alt="/"></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>-->
+
 </div>
 
 <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
@@ -1832,11 +1277,11 @@
 <script src="assets/switcher/js/dmss.js"></script>
 
 <script src="http://www.jq22.com/jquery/jquery-ui-1.11.0.js"></script>
-<script src="js/modernizr.custom.js"></script>
-<script src="js/wow.min.js"></script>
+<script src="user_page/js/modernizr.custom.js"></script>
+<script src="user_page/js/wow.min.js"></script>
 
 <!--bootstrap-select -->
-<script src="assets/bootstrap-select/bootstrap-select.min.js"></script>
+<script src="user_page/assets/bootstrap-select/bootstrap-select.min.js"></script>
 
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -1844,24 +1289,24 @@
 <![endif]-->
 
 <!-- Countdown Timer -->
-<script src="assets/countdown/dscountdown.min.js"></script>
+<script src="user_page/assets/countdown/dscountdown.min.js"></script>
 
 <!--Owl Carousel-->
-<script src="assets/owl-carousel/owl.carousel.min.js"></script>
+<script src="user_page/assets/owl-carousel/owl.carousel.min.js"></script>
 
 <!--bx slider-->
-<script src="assets/bxslider/jquery.bxslider.min.js"></script>
+<script src="user_page/assets/bxslider/jquery.bxslider.min.js"></script>
 
 <!-- slider-pro-master -->
-<script src="assets/slider-pro-master/js/jquery.sliderPro.min.js"></script>
+<script src="user_page/assets/slider-pro-master/js/jquery.sliderPro.min.js"></script>
 
-<script src="assets/prettyPhoto/js/jquery.prettyPhoto.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/jquery.easypiechart.min.js"></script>
-<script src="js/jquery.spinner.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/jquery.placeholder.min.js"></script>
-<script src="js/theme.js"></script>
+<script src="user_page/assets/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+<script src="user_page/js/waypoints.min.js"></script>
+<script src="user_page/js/jquery.easypiechart.min.js"></script>
+<script src="user_page/js/jquery.spinner.min.js"></script>
+<script src="user_page/js/isotope.pkgd.min.js"></script>
+<script src="user_page/js/jquery.placeholder.min.js"></script>
+<script src="user_page/js/theme.js"></script>
 
 </body>
 </html>

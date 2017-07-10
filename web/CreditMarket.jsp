@@ -786,6 +786,7 @@
                                         </div>
                                         <div class="add-buttons">
                                             <button type="button" class="btn btn-add btn-add-compare"><i class="fa fa-refresh"></i></button>
+                                            <!--这个下面的按钮负责主要的提交工作，我们需要编写事件让其提交交易请求-->
                                             <button type="button" class="btn btn-add btn-add-cart"><i class="fa fa-shopping-cart"></i></button>
                                             <div class="cart-add-buttons">
                                                 <button type="button" class="btn btn-cart-color1"><i class="fa fa-shopping-cart"></i> add to cart</button>
@@ -1132,6 +1133,7 @@
                                         </div>
                                         <div class="add-buttons">
                                             <button type="button" class="btn btn-add btn-add-compare"><i class="fa fa-refresh"></i></button>
+                                            <!--这个按钮负责主要的提交工作，我们将在此修改-->
                                             <button type="button" class="btn btn-add btn-add-cart"><i class="fa fa-shopping-cart"></i></button>
                                             <div class="cart-add-buttons">
                                                 <button type="button" class="btn btn-cart-color1"><i class="fa fa-shopping-cart"></i> add to cart</button>
