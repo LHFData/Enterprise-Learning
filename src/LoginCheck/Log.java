@@ -1,6 +1,7 @@
 package LoginCheck;
 import java.io.IOException;
 import java.sql.*;
+import java.util.List;
 import java.util.Map;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -9,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import javax.servlet.http.Cookie;
 
-import LoginCheck.dataDAO.JsonTrans;
+
 import LoginCheck.dataDAO.Question;
 import LoginCheck.dataDAO.QuestionDao;
 import com.sun.rowset.CachedRowSetImpl;
@@ -23,6 +24,7 @@ import com.opensymphony.xwork2.ActionSupport;
 import LoginCheck.UserDao;
 import LoginCheck.CookieUtil;
 import LoginCheck.User;
+
 import org.json.JSONException;
 
 public class Log extends ActionSupport implements SessionAware, ServletRequestAware, ServletResponseAware {
@@ -75,7 +77,9 @@ public String execute() throws IOException,JSONException,SQLException{
     //方法中可以对session、request、response进行操作
 
     //JSON数据库存取测试用例
-    // QuestionDao q=new QuestionDao("1202","文学");
+    QuestionDao q=new QuestionDao();
+    String i=q.getQuestion("1202","文学");
+    System.out.println("\n"+i);
     //JsonTrans j=new JsonTrans();
     //CachedRowSetImpl z=q.getQuestion("1202","文学");
     //j.setResultSet(z);
@@ -107,7 +111,6 @@ public String logcheck()throws IOException,ServletException{
             if(session.getAttribute("Username")==null) {
                 RequestDispatcher dispatcher=request.getRequestDispatcher("/Audio.jsp");
                 dispatcher.forward(request,response);
-
             }
             return "log";
 }

@@ -6,7 +6,10 @@
 
 <struts>
 
-
+    <package name="ajax" namespace="/" extends="struts-default">
+    <action name="TradeProduct" class="LoginCheck.Trade" method="loadpage">
+    </action>
+    </package>
     <package name="default" namespace="/" extends="struts-default">
         <!--拦截器-->
         <!--<interceptors>

@@ -33,8 +33,8 @@ public class UserDao {
             if (Result.next()!=false) {
                 user=new User(Result.getString("User"),Result.getString("password"),Result.getInt("class"),Result.getString("email"));
                 Result.close();
-                conn.close();
                 stmt.close();
+                conn.close();
                 return true;
             }
             return false;

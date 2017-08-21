@@ -17,6 +17,7 @@ import LoginCheck.User;
 /**
  * Created by LHF on 2017/6/29.
  */
+//用于注册用的类，刚开始写的时候分不清Bean和Action所以四不像了
 public class SignUp extends ActionSupport implements SessionAware, ServletRequestAware, ServletResponseAware{
     private Map session;
     private HttpServletResponse response;

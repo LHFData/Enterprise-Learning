@@ -11,7 +11,7 @@ import LoginCheck.User;
 
 import javax.sql.RowSetMetaData;
 import java.sql.*;
-
+//结果集缓存仍有待考究。
 public class JsonTrans {
     private CachedRowSetImpl resultSet;
 
@@ -33,7 +33,8 @@ public class JsonTrans {
         }
         return array.toString();
     }
-   /*public ResultSet Select(){
+   /*
+   public ResultSet Select(){
         ResultSet Result = null;
         Statement stmt=null;
         Connection conn=null;
@@ -61,5 +62,6 @@ public class JsonTrans {
             var7.printStackTrace();
             return null;
         }
-    }*/
+    }
+    */
 }

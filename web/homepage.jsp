@@ -234,7 +234,7 @@
                                     </div>-->
                                 </li>
                                 <li>
-                                    <a class="heading-line" href="#">products</a>
+                                    <a class="heading-line" href="CreditMarket.jsp">products</a>
                                     <div class="b-all-homes">
                                         <ul class="list-unstyled">
                                             <li>
@@ -297,70 +297,7 @@
                             </ul>
                         </div>
                     </div>
-                    <!--<div id="cart-wrapper" class="col-xs-6 col-sm-12 col-md-2 col-lg-2">
-                        <div class="b-cart pull-right">
-                            <button id="cart" class="btn btn-default-color1 btn-sm">
-                                <span class="price"><i class="fa fa-shopping-bag"></i> $ 460.00</span>
-                                <span class="counter-wrapper"><span class="counter">2</span></span>
-                            </button>
-                            <div class="cart-products">
-                                <div class="c-holder">
-                                    <h3 class="title">
-                                        my shopping cart
-                                    </h3>
-                                    <ul class="products-list list-unstyled">
-                                        <li>
-                                            <div class="b-cart-table ">
-                                                <a href="#" class="image">
-                                                    <img src="media/cart-products/product1.jpg" alt="/">
-                                                </a>
-                                                <div class="caption">
-                                                    <a class="product-name" href="product-details.html">Huawei Mate S</a>
-                                                    <span class="product-price">1 x $280.00</span>
-                                                    <div class="rating">
-                                                        <span class="star"><i class="fa fa-star"></i></span>
-                                                        <span class="star"><i class="fa fa-star"></i></span>
-                                                        <span class="star"><i class="fa fa-star"></i></span>
-                                                        <span class="star"><i class="fa fa-star"></i></span>
-                                                        <span class="star star-empty"><i class="fa fa-star-o"></i></span>
-                                                    </div>
-                                                </div>
-                                                <button class="btn btn-remove"><i class="fa fa-trash fa-lg"></i></button>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="b-cart-table ">
-                                                <a href="#" class="image">
-                                                    <img src="media/cart-products/product2.jpg" alt="/">
-                                                </a>
-                                                <div class="caption">
-                                                    <a class="product-name" href="product-details.html">Sony xperia z5</a>
-                                                    <span class="product-price">1 x $620.00</span>
-                                                    <div class="rating">
-                                                        <span class="star"><i class="fa fa-star"></i></span>
-                                                        <span class="star"><i class="fa fa-star"></i></span>
-                                                        <span class="star"><i class="fa fa-star"></i></span>
-                                                        <span class="star"><i class="fa fa-star"></i></span>
-                                                        <span class="star star-empty"><i class="fa fa-star-o"></i></span>
-                                                    </div>
-                                                </div>
-                                                <button class="btn btn-remove"><i class="fa fa-trash fa-lg"></i></button>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="products-subtotal text-right">
-                                                Cart Subtotal <span class="subtotal-price">$900.00</span>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <div class="products-buttons text-center">
-                                        <button type="button" class="btn btn-default-color1 btn-sm">view cart</button>
-                                        <button type="button" class="btn btn-primary-color2 btn-sm">Checkout</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>-->
+
                 </div>
             </div>
         </div>

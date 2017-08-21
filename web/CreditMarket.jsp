@@ -21,6 +21,7 @@
     <link rel="alternate stylesheet" type="text/css" href="user_page/assets/switcher/css/color3.css" title="color3" media="all" />
     <link rel="alternate stylesheet" type="text/css" href="user_page/assets/switcher/css/color4.css" title="color4" media="all" />
 
+
 </head>
 <body>
 <!-- Loader -->
@@ -749,8 +750,8 @@
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
                                 <div class="b-item-card">
                                     <div class="image">
-                                        <a href="media/item-card-media/6s-plus.jpg" data-gal="prettyPhoto" title="6s Plus">
-                                            <img src="media/item-card-media/6s-plus.jpg" class="img-responsive center-block" alt="6s Plus">
+                                        <a href="media/item-card-media/6s-plus.jpg" id="aPic" data-gal="prettyPhoto" title="6s Plus">
+                                            <img src="media/item-card-media/6s-plus.jpg" id="imgPic" class="img-responsive center-block" alt="6s Plus">
                                             <div class="image-add-mod">
 														<span class="btn btn-lightbox btn-default-color1 btn-sm">
 															<i class="fa fa-search-plus fa-lg"></i>
@@ -784,10 +785,11 @@
                                                 </p>
                                             </div>
                                         </div>
+
                                         <div class="add-buttons">
                                             <button type="button" class="btn btn-add btn-add-compare"><i class="fa fa-refresh"></i></button>
                                             <!--这个下面的按钮负责主要的提交工作，我们需要编写事件让其提交交易请求-->
-                                            <button type="button" class="btn btn-add btn-add-cart"><i class="fa fa-shopping-cart"></i></button>
+                                            <button type="button" class="btn btn-add btn-add-cart tradebtn" id="ProductName" onclick="Trade()"><i class="fa fa-shopping-cart"></i></button>
                                             <div class="cart-add-buttons">
                                                 <button type="button" class="btn btn-cart-color1"><i class="fa fa-shopping-cart"></i> add to cart</button>
                                             </div>
@@ -795,6 +797,43 @@
                                     </div>
                                 </div>
                             </div>
+                            <script>
+                                //页面加载ajax
+                               /* var User=${sessionScope.Username};
+
+                                $.ajax({
+                                    type:"Post",
+                                    url:"TradePic.action",
+                                    data:{Username:User},
+                                    async:false,//必须同步，获取不到页面图片则阻塞
+                                    dataType:"json",
+                                    success:function(returedData){
+                                        $("#aPic").attr("src",returedData);
+                                        $("#imgPic").attr("src",returnedData);
+                                        $(".tradebtn").attr("id",returedData);
+                                    }
+                                })*/
+                                //未测试按键请求
+                                function Trade(){
+                                    $("#ProductName").click(function(){
+                                        var val=$(this).attr("id");
+                                        $.ajax({
+                                            type:"Post",//请求类型，POST or GET
+                                            url:"TradeProduct.action",//请求动作
+                                            data:{productname:val},//请求参数，为KEY-VALUE键值对形式
+                                            async:true,//同步设置，true为异步，false为同步
+                                            dataType:"text",//接收数据类型
+                                            success:function(returnedData){
+                                                alert(returnedData);
+                                            },
+                                            error:function(e){
+                                                alert(e);
+                                            }
+                                        });
+                                    })
+                                }
+
+                            </script>
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
                                 <div class="b-item-card wow fadeInUp">
                                     <div class="special-plank new">
