@@ -6,9 +6,12 @@
 
 <struts>
 
-    <package name="ajax" namespace="/" extends="struts-default">
-    <action name="TradeProduct" class="LoginCheck.Trade" method="loadpage">
+    <package name="ajax" namespace="/LBT test" extends="struts-default">
+    <action name="TradeProduct" class="LoginCheck.Service.Trade" method="loadpage">
     </action>
+        <action name="GetJson" class="LoginCheck.Service.FormAction">
+            <result name="none"></result>
+        </action>
     </package>
     <package name="default" namespace="/" extends="struts-default">
         <!--拦截器-->
@@ -20,28 +23,29 @@
             </interceptor-stack>
         </interceptors>-->
 
-        <action name="Log" class="LoginCheck.Log">
+        <action name="Log" class="LoginCheck.Service.Log">
             <result name="Admin">./Upload.html</result>
             <result name="fail">./login.jsp</result>
+            <!--这里的链接会受目录影响，故当把JSP/HTML置于分类目录下时可能还要改-->
             <result name="User">./Audio.jsp</result>
         </action>
-        <action name="Login" class="LoginCheck.Log" method="login">
+        <action name="Login" class="LoginCheck.Service.Log" method="login">
             <result name="success">./SignUp.jsp</result>
             <result name="error">./login.jsp</result>
         </action>
-        <action name="Logout" class="LoginCheck.Log" method="logout">
+        <action name="Logout" class="LoginCheck.Service.Log" method="logout">
             <result name="login">./login.jsp</result>
         </action>
-        <action name="logcheck" class="LoginCheck.Log" method="logcheck">
+        <action name="logcheck" class="LoginCheck.Service.Log" method="logcheck">
             <result name="unlog">./login.jsp</result>
             <result name="log">./Audio.jsp</result>
         </action>
-        <action name="SignUp" class="LoginCheck.SignUp">
+        <action name="SignUp" class="LoginCheck.Service.SignUp">
             <result name="success">./login.jsp</result>
             <result name="loging">./Upload.html</result>
             <result name="error">./Fail.jsp</result>
         </action>
-        <action name="Audio" class="LoginCheck.Audio">
+        <action name="Audio" class="LoginCheck.TestExample.Audio">
             <result name="success">./Audio.jsp</result>
         </action>
         <action name="pageList" class="saber.action.UserListAction" method="queryList">

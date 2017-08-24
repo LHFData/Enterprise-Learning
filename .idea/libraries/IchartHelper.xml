@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="IchartHelper">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/IchartHelper.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/IchartHelper.jar!/" />
+    </SOURCES>
+  </library>
+</component>
